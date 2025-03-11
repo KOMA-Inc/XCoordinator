@@ -13,6 +13,9 @@
 /// You can use all `SplitTransitions` and get an initializer to set a master and
 /// (optional) detail presentable.
 ///
+
+import UIKit
+
 open class SplitCoordinator<RouteType: Route>: BaseCoordinator<RouteType, SplitTransition> {
 
     // MARK: Initialization
